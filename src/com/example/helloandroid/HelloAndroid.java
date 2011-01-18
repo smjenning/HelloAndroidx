@@ -11,7 +11,7 @@ public class HelloAndroid extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         TextView tv = new TextView(this);
-        tv.setText("Hello, Android");
+        tv.setText("Hello, AndroidX");
         setContentView(tv);
     }
 }
